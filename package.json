@@ -2,6 +2,12 @@
   "name": "cropper-app",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Mostafa Kahani",
+    "url": "https://github.com/Mostafakahani",
+    "email": "kahanimostafa83@gmail.com"
+  },
+  "description": "A simple Cropper because I had a problem this",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +15,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-easy-crop": "^5.0.6"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
